@@ -3,7 +3,7 @@ import Logo from '../../../utils/imgs/logo.png'
 import * as Icon from "react-bootstrap-icons";
 import { Link } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
-import { Avatar, Backdrop, Box, Button, CircularProgress, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, IconButton, List, Tooltip } from '@mui/material';
+import { Avatar,  Box, Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, IconButton, List, Tooltip } from '@mui/material';
 import axios from 'axios';
 import { baseURL } from '../../../utils/constants/Constants';
 import { wait } from '@testing-library/user-event/dist/utils';
